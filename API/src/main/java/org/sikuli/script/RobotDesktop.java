@@ -4,7 +4,7 @@
 package org.sikuli.script;
 
 import org.sikuli.basics.Animator;
-import org.sikuli.basics.AnimatorOutQuarticEase;
+import org.sikuli.basics.AnimatorRandom;
 import org.sikuli.basics.AnimatorTimeBased;
 import org.sikuli.basics.Settings;
 import org.sikuli.basics.Debug;
@@ -153,9 +153,9 @@ public class RobotDesktop extends Robot implements IRobot {
       return;
     }
     Animator aniX = new AnimatorTimeBased(
-            new AnimatorOutQuarticEase(src.x, dest.x, ms));
+            new AnimatorRandom(src.x, dest.x, ms));
     Animator aniY = new AnimatorTimeBased(
-            new AnimatorOutQuarticEase(src.y, dest.y, ms));
+            new AnimatorRandom(src.y, dest.y, ms));
     float x = 0, y = 0;
     while (aniX.running()) {
       x = aniX.step();

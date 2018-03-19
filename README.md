@@ -1,3 +1,11 @@
+
+## COMPILATION GUIDE
+* install JDK, maven
+* `cd` to project directory
+* `make`
+* open output/sikulixsetup-1.1.2-SNAPSHOT-forsetup.jar
+
+
 [![RaiMan's Stuff](https://raw.github.com/RaiMan/SikuliX-2014-Docs/master/src/main/resources/docs/source/RaiManStuff64.png)](http://www.sikuli.org) SikuliX 1.1.2 [repository frozen per 2018-03-10]
 ============
 
